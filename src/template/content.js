@@ -4,13 +4,10 @@ export default `请使用 **Chrome** 浏览器。
 
 <img style="width: 120px" src="https://my-wechat.mdnice.com/mdnice/mdnice%20logo_20191007150129.png"/>
 
-## 1 Markdown Nice 简介
+## 1 Easy Markdown 简介
 
 - 支持自定义样式的 Markdown 编辑器
 - 支持微信公众号、知乎、开源中国、稀土掘金、博客园和 CSDN 等平台
-- 欢迎扫码回复「排版」加入用户群
-
-![](https://my-wechat.mdnice.com/mdnice/%E4%BA%8C%E7%BB%B4%E7%A0%81_20191007150357.gif)
 
 ## 2 示例文章
 
@@ -18,7 +15,7 @@ export default `请使用 **Chrome** 浏览器。
 - <span style="color:#773098;font-weight:bold;">姹紫：</span>[JavaScript 数据结构与算法之美](https://mp.weixin.qq.com/s/KmoRDGdJLZ7reMfTDDaFGg)
 - <span style="color:#35b378;font-weight:bold;">绿意：</span>[前端硬核面试专题之 CSS 55 问](https://mp.weixin.qq.com/s/SVKMsQtOLNqYXeT_f95FUw)
 - <span style="color:rgb(248,57,41);font-weight:bold;">红绯：</span>[日常 | 我用什么工具写作？](https://mp.weixin.qq.com/s/DrvJBEWqH14atF_4O1IXFw)
-- <span style="color:orangered;font-weight:bold;">Wechat-Format</span>：[Markdown Nice 新特性：阿里云图床](https://mp.weixin.qq.com/s/QPsOUkLCsvhqSicTOGaHJg)
+- <span style="color:orangered;font-weight:bold;">Wechat-Format</span>：[Easy Markdown 新特性：阿里云图床](https://mp.weixin.qq.com/s/QPsOUkLCsvhqSicTOGaHJg)
 - <span style="color:#0e88eb;font-weight:bold;">科技蓝</span>：[2019 前端秋季社招面试经历总结（二年多经验）](https://mp.weixin.qq.com/s/eDIDOESem_s93liccYK-qw)
 
 ## 3 通用语法
@@ -118,7 +115,7 @@ export default `请使用 **Chrome** 浏览器。
 
 插入图片，如果是行内图片则无图例，否则有图例，格式如下：
 
-![这里写图片描述](https://my-wechat.mdnice.com/mdnice/%E4%BA%8C%E7%BB%B4%E7%A0%81_20191007150357.gif)
+![这里写图片描述](https://mp.weixin.qq.com/cgi-bin/filepage?type=2&begin=0&count=12&token=34147925&lang=zh_CN)
 
 支持 jpg、png、gif、svg 等图片格式，**其中 svg 文件仅可在微信公众平台中使用**，svg 文件示例如下：
 

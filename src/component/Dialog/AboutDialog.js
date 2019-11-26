@@ -28,9 +28,9 @@ class AboutDialog extends Component {
         onOk={this.handleOk}
         onCancel={this.handleCancel}
         footer={[
-          <Button key="version" onClick={this.handleVersion}>
-            更新记录
-          </Button>,
+          // <Button key="version" onClick={this.handleVersion}>
+          //   更新记录
+          // </Button>,
           <Button key="submit" type="primary" onClick={this.handleOk}>
             确认
           </Button>,
@@ -40,20 +40,20 @@ class AboutDialog extends Component {
         }}
       >
         <h3 style={style.headerMargin}>
-          Markdown Nice
-          <a
+          Easy Markdown
+          {/* <a
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/mdnice/markdown-nice"
             style={style.noBorder}
           >
             <img alt="" style={style.img} src="https://badgen.net/github/stars/mdnice/markdown-nice" />
-          </a>
+          </a> */}
         </h3>
 
         <p style={style.lineHeight}>支持自定义样式的 Markdown 编辑器；</p>
         <p style={style.lineHeight}>支持微信公众号、开源中国、知乎、掘金、博客园和CSDN等平台；</p>
-        <h3 style={style.headerMargin}>我们</h3>
+        {/* <h3 style={style.headerMargin}>我们</h3>
         <p style={style.lineHeight}>
           如果你喜欢我们的工具，欢迎关注
           <a rel="noopener noreferrer" target="_blank" href="https://github.com/mdnice/markdown-nice">
@@ -77,8 +77,8 @@ class AboutDialog extends Component {
           」，右下角关注公众号回复「排版」拉你入群，愿意
           <strong style={style.strong}>微信打赏</strong>
           就更好啦。
-        </p>
-        <div style={{display: "flex", alignItems: "center"}}>
+        </p> */}
+        {/* <div style={{display: "flex", alignItems: "center"}}>
           <img
             alt="图片描述"
             style={style.imgWidth}
@@ -89,7 +89,7 @@ class AboutDialog extends Component {
             style={style.imgWidth}
             src="https://my-wechat.mdnice.com/wechat/wechat_gongzhognhao_20191014013348.gif"
           />
-        </div>
+        </div> */}
       </Modal>
     );
   }

@@ -45,7 +45,7 @@ class LinkDialog extends Component {
               return <Timeline.Item key={index}>{version}</Timeline.Item>;
             }
           })}
-          <Timeline.Item dot={<SvgIcon name="more" style={style.svgIcon} />}>
+          {/* <Timeline.Item dot={<SvgIcon name="more" style={style.svgIcon} />}>
             <a
               alt=""
               href="https://github.com/mdnice/markdown-nice/blob/master/CHANGELOG.md"
@@ -54,7 +54,7 @@ class LinkDialog extends Component {
             >
               更多
             </a>
-          </Timeline.Item>
+          </Timeline.Item> */}
         </Timeline>
       </Modal>
     );
